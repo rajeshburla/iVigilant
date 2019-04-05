@@ -2,7 +2,7 @@
 """
 Created on Wed Mar 27 18:47:54 2019
 
-@author: hariramk
+@author: RajeshBurla
 """
 
 # -*- coding: utf-8 -*-
@@ -234,8 +234,8 @@ if __name__ == "__main__":
     # The following lines will be executed only if this .py file is run as a script,
     # and not if it is imported as a module.
     
-    directory = 'U:/Desktop/textAnalytics/New folder/pan19-author-profiling-training-2019-02-18-20190302T192830Z-001/pan19-author-profiling-training-2019-02-18'
-    merged_tweets_of_authors, truths, author_ids, original_tweet_lengths = load_pan_data(directory+'/en', directory+'/en-truth/truth.txt', False, directory+'/txtFiles')
+    directory = 'U:/TA'
+    merged_tweets_of_authors, truths, author_ids, original_tweet_lengths = load_pan_data(directory+'/en', directory+'/truth/truth.txt', False, directory+'/txtFiles')
     print("Module was executed directly.")
     print('merged_tweets_of_authors',merged_tweets_of_authors)
 
